@@ -24,6 +24,21 @@ Recommended shared properties:
 - `mode`
 - `targetUserId` when relevant
 
+## Multi-app isolation rule
+
+If multiple extensions share the same Supabase project or analytics storage:
+
+- every event must include the extension `appId`
+- every admin analytics query must also carry the target `appId`
+- dashboards must filter by `appId` before rendering summaries, events, funnels, or user lists
+- never show mixed events from different extensions in one shared panel by default
+
+The safe default is:
+
+- one extension selected
+- one `appId` loaded
+- one isolated analytics response rendered
+
 ## What not to collect
 
 Do not collect:
