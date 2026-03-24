@@ -61,6 +61,7 @@ Instead:
 ## First files another AI should read
 
 - [docs/GETTING_STARTED.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/GETTING_STARTED.md)
+- [docs/REPO_STRUCTURE.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/REPO_STRUCTURE.md)
 - [docs/ARCHITECTURE_DECISIONS.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/ARCHITECTURE_DECISIONS.md)
 - [docs/CREATE_NEW_EXTENSION.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/CREATE_NEW_EXTENSION.md)
 - [docs/supabase/MULTI_APP_SOCIAL_SCHEMA.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/supabase/MULTI_APP_SOCIAL_SCHEMA.md)

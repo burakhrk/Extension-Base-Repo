@@ -10,6 +10,7 @@ It includes:
 - app-scoped social client
 - analytics helper
 - example bootstrap flow
+- starter folders for `public/icons`, `scripts`, and `store-assets`
 
 Adjust before using:
 

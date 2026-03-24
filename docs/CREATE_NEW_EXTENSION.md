@@ -23,6 +23,7 @@ Do not rename `APP_ID` later unless absolutely necessary.
 - create a fresh extension repo
 - move only the files you actually need
 - keep this base repo as reference, not as a live dependency
+- align the repo to [docs/REPO_STRUCTURE.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/REPO_STRUCTURE.md)
 
 ## 3. Supabase
 
@@ -111,4 +112,5 @@ Add product-specific events only after the shared baseline is in place.
 - `get_social_state(APP_ID)` returns successfully
 - analytics helper is wired
 - website route exists
+- standard folders like `public/icons`, `scripts`, and `store-assets` exist
 - support/legal placeholders are replaced if the product is going public

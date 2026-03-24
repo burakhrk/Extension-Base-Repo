@@ -12,7 +12,9 @@ If you are using this repo for a new extension, do this in order:
 4. set Supabase env values
 5. configure Google auth for Chrome extension redirects
 6. connect analytics
-7. only then start product-specific UI work
+7. adopt the default repo layout from:
+   - [docs/REPO_STRUCTURE.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/REPO_STRUCTURE.md)
+8. only then start product-specific UI work
 
 ## If using shared Supabase
 
