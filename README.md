@@ -1,6 +1,6 @@
 # Extension Base Repo
 
-This repository is a **template and reference base** for new Chrome extension projects.
+This repository is an **opinionated starter + reference base** for new Chrome extension projects that use Supabase, Vite, shared analytics conventions, and reusable marketing tooling.
 
 It is **not** intended to be a live shared dependency between extensions.
 
@@ -12,21 +12,32 @@ Use it like this:
 
 That avoids cross-project breakage while still giving every new extension a strong starting point.
 
+## Starter vs reference
+
+Use these words intentionally in this repo:
+
+- `starter`
+  - code or folders meant to be copied into a real extension project
+- `reference`
+  - docs, migrations, and decision records that should be read and adapted, not blindly copied
+
 ## What is included
 
+- an opinionated Supabase + Vite starter for Chrome extensions
 - Supabase multi-app schema docs and migration
 - Chrome-extension-friendly Supabase Auth starter
 - app-scoped social client starter
 - analytics starter
-- marketing screenshot / clip / montage tooling
+- reusable screenshot / clip / montage tooling
 - setup docs written so another AI can continue from this repo cleanly
 
 ## Repo sections
 
-- [supabase](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/supabase)
-- [marketing-assets](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/marketing-assets)
-- [templates/chrome-extension-vite](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/templates/chrome-extension-vite)
 - [docs](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs)
+- [docs/supabase](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/supabase)
+- [supabase/migrations](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/supabase/migrations)
+- [extension-marketing-kit](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/extension-marketing-kit)
+- [templates/chrome-extension-supabase-vite](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/templates/chrome-extension-supabase-vite)
 
 ## Important rule
 
@@ -41,16 +52,16 @@ Instead:
 ## Recommended workflow
 
 1. pick a new extension slug and `APP_ID`
-2. copy `templates/chrome-extension-vite`
+2. copy `templates/chrome-extension-supabase-vite`
 3. apply branding and product logic
 4. wire Supabase envs
 5. run the multi-app schema in Supabase if not already installed
-6. use the marketing assets kit to generate store screenshots and promo videos
+6. use the extension marketing kit to generate store screenshots and promo videos
 
 ## First files another AI should read
 
-- [docs/START_HERE.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/START_HERE.md)
-- [docs/DECISIONS.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/DECISIONS.md)
-- [docs/NEW_EXTENSION_CHECKLIST.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/NEW_EXTENSION_CHECKLIST.md)
-- [supabase/docs/MULTI_APP_SOCIAL_SCHEMA.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/supabase/docs/MULTI_APP_SOCIAL_SCHEMA.md)
-- [templates/chrome-extension-vite/README.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/templates/chrome-extension-vite/README.md)
+- [docs/GETTING_STARTED.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/GETTING_STARTED.md)
+- [docs/ARCHITECTURE_DECISIONS.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/ARCHITECTURE_DECISIONS.md)
+- [docs/CREATE_NEW_EXTENSION.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/CREATE_NEW_EXTENSION.md)
+- [docs/supabase/MULTI_APP_SOCIAL_SCHEMA.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/supabase/MULTI_APP_SOCIAL_SCHEMA.md)
+- [templates/chrome-extension-supabase-vite/README.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/templates/chrome-extension-supabase-vite/README.md)

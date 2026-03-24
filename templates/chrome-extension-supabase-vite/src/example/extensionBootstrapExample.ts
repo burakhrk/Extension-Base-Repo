@@ -1,5 +1,5 @@
 import { getCurrentUser, signInWithGoogle } from '../lib/auth'
-import { socialClient } from '../lib/socialClient'
+import { appSocialClient } from '../lib/appSocialClient'
 import { track } from '../lib/analytics'
 
 export async function bootstrapExtensionState() {
@@ -13,7 +13,7 @@ export async function bootstrapExtensionState() {
     }
   }
 
-  const socialState = await socialClient.bootstrap()
+  const socialState = await appSocialClient.bootstrap()
   await track('Loaded Social State', { screen: 'bootstrap', result: 'success' })
 
   return {
@@ -27,7 +27,7 @@ export async function signInAndBootstrap() {
   const user = await signInWithGoogle()
   await track('Signed In', { screen: 'auth', result: 'success' })
 
-  const socialState = await socialClient.bootstrap()
+  const socialState = await appSocialClient.bootstrap()
   await track('Loaded Social State', { screen: 'bootstrap', result: 'success' })
 
   return { user, socialState }

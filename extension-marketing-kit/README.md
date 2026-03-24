@@ -1,4 +1,4 @@
-# Marketing Assets Kit
+# Extension Marketing Kit
 
 This folder is a reusable base for generating extension store assets without rewriting the automation from scratch.
 
@@ -17,7 +17,7 @@ Use it to generate:
 
 ## How to use
 
-1. copy `marketing-assets` into a real extension repo
+1. copy `extension-marketing-kit` into a real extension repo
 2. customize the config/constants in the scripts
 3. replace mocked content with that extension's own scenarios
 4. build the extension so its `dist/` exists

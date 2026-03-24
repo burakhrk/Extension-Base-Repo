@@ -1,4 +1,4 @@
-# New Extension Checklist
+# Create New Extension
 
 Use this when starting a brand-new extension from this base repo.
 
@@ -19,7 +19,7 @@ Do not rename `APP_ID` later unless absolutely necessary.
 
 ## 2. Repo setup
 
-- copy the starter from `templates/chrome-extension-vite`
+- copy the starter from `templates/chrome-extension-supabase-vite`
 - create a fresh extension repo
 - move only the files you actually need
 - keep this base repo as reference, not as a live dependency
@@ -97,9 +97,9 @@ Add product-specific events only after the shared baseline is in place.
   - support
 - avoid mixing product copy with other extensions
 
-## 9. Marketing assets
+## 9. Marketing starter kit
 
-- copy `marketing-assets` into the real extension repo if needed
+- copy `extension-marketing-kit` into the real extension repo if needed
 - replace sample scenarios, colors, and texts
 - regenerate screenshots and clips with product-specific scenarios
 

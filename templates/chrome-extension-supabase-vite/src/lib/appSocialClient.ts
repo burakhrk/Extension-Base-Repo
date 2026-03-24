@@ -1,8 +1,8 @@
-import { APP_ID } from './constants'
+import { APP_ID } from './appConstants'
 import { supabase } from './supabase'
 import type { SocialState } from '../types/social'
 
-export const socialClient = {
+export const appSocialClient = {
   async bootstrap() {
     const { data, error } = await supabase.rpc('get_social_state', {
       p_app_id: APP_ID,

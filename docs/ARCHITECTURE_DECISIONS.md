@@ -1,4 +1,4 @@
-# Decisions
+# Architecture Decisions
 
 ## Why this repo is a template and not a shared dependency
 

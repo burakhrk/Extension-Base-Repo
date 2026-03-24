@@ -1,10 +1,10 @@
-# Chrome Extension Vite Starter
+# Chrome Extension Supabase Vite Starter
 
-This starter is meant to be copied into a real extension repo.
+This is an opinionated starter meant to be copied into a real extension repo.
 
 It includes:
 
-- constants
+- app constants
 - Supabase client
 - Chrome-compatible auth wrapper
 - app-scoped social client
