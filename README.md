@@ -51,5 +51,6 @@ Instead:
 
 - [docs/START_HERE.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/START_HERE.md)
 - [docs/DECISIONS.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/DECISIONS.md)
+- [docs/NEW_EXTENSION_CHECKLIST.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/NEW_EXTENSION_CHECKLIST.md)
 - [supabase/docs/MULTI_APP_SOCIAL_SCHEMA.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/supabase/docs/MULTI_APP_SOCIAL_SCHEMA.md)
 - [templates/chrome-extension-vite/README.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/templates/chrome-extension-vite/README.md)
