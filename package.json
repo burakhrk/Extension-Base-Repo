@@ -1,0 +1,9 @@
+{
+  "name": "extension-base-repo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "validate": "node -e \"console.log('Extension Base Repo ready')\""
+  }
+}
