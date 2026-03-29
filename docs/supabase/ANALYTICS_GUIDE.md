@@ -39,6 +39,33 @@ The safe default is:
 - one `appId` loaded
 - one isolated analytics response rendered
 
+## Recommended admin analytics contract
+
+If an extension exposes admin analytics over HTTP, prefer this contract:
+
+- endpoint:
+  - `GET /api/admin/analytics?appId={appId}`
+- required header:
+  - `x-admin-passcode`
+- recommended extra header:
+  - `x-extension-app-id`
+
+Recommended response fields:
+
+- `appId`
+- `summary`
+- `aiUsage`
+- `funnels`
+- `topEvents`
+- `screenCounts`
+- `recentEvents`
+- `uninstallFeedback`
+
+And for item-level safety:
+
+- each event record should also include `appId`
+- each uninstall feedback record should also include `appId`
+
 ## What not to collect
 
 Do not collect:
