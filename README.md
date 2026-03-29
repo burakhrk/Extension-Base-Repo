@@ -58,6 +58,14 @@ Instead:
 5. run the multi-app schema in Supabase if not already installed
 6. use the extension marketing kit to generate store screenshots and promo videos
 
+If the extension opens a website hub route, use a consistent handoff query shape:
+
+- `source=chrome-extension`
+- `appId=<APP_ID>`
+- `clientId=<client-id>`
+- `accountId=<signed-in-account-id>`
+- `email=<signed-in-email>`
+
 ## First files another AI should read
 
 - [docs/GETTING_STARTED.md](C:/Users/burak/Desktop/Burakhrk/SideProjects/Extension-Base-Repo/docs/GETTING_STARTED.md)
