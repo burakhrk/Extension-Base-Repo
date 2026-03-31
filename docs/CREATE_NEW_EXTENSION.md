@@ -92,19 +92,48 @@ Add product-specific events only after the shared baseline is in place.
 - add the extension to the public hub site config
 - create separate routes for:
   - overview
+  - login
   - pricing
+  - payment
   - privacy
   - terms
   - support
+  - leave / uninstall feedback
 - avoid mixing product copy with other extensions
 
-## 9. Marketing starter kit
+## 9. Billing provider
+
+If the extension uses Patreon-based tiers:
+
+- keep app identity anchored to the extension account first
+- do not treat Patreon as the only identity system unless the whole product is built that way
+- prefer:
+  - extension / website sign-in
+  - then explicit `Connect Patreon`
+  - then membership entitlement sync
+
+Recommended backend envs for a Patreon-aware worker:
+
+- `PATREON_CLIENT_ID`
+- `PATREON_CLIENT_SECRET`
+- `PATREON_REDIRECT_URI`
+- `PATREON_APP_CONFIG_JSON`
+- `PUBLIC_SITE_URL`
+
+Recommended pattern for multi-extension Patreon billing:
+
+- one mapping object keyed by `APP_ID`
+- each app maps to its own Patreon package / tier IDs
+- backend state stays scoped by `appId + accountId`
+- one user can be Pro in one extension and free in another
+
+## 10. Marketing starter kit
 
 - copy `extension-marketing-kit` into the real extension repo if needed
 - replace sample scenarios, colors, and texts
 - regenerate screenshots and clips with product-specific scenarios
 
-## 10. Final checks before real development
+## 11. Final checks before real development
 
 - `APP_ID` is fixed
 - auth redirect works
